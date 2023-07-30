@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quicklinks Page for Astronauts</title>
+    <style>
+        body {
+            font-family: "Georgia";
+            color: white;
+            background-image: url("space_background.jpg");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        h1, h2, p, a, button {
+            color: white;
+            text-align: center;
+            margin: 10px;
+        }
+
+        .link-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px;
+            max-width: 800px;
+        }
+
+        .link-box a {
+            text-decoration: none;
+            position: relative;
+        }
+
+        .link-box img {
+            max-width: 200px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .hover-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .link-box:hover .hover-text {
+            opacity: 1;
+        }
+
+        .hover-text span {
+            margin: 5px;
+        }
+
+        .button-style {
+            background-color: #1E90FF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .button-style:hover {
+            background-color: #4169E1;
+        }
+    </style>
+</head>
+<body>
+    <h1>WELCOME TO THE QUICKLINKS PAGE FOR ASTRONAUTS</h1>s
+
+    <div class="link-box">
+        <h2 id="astronautpart">Learn more about those who came before you</h2>
+        <a href="https://en.wikipedia.org/wiki/Neil_Armstrong" target="_blank" class="image-link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Neil_Armstrong_pose.jpg/800px-Neil_Armstrong_pose.jpg" alt="Wikipedia" width="150" />
+            <div class="hover-text">
+                <span>Neil Armstrong was the mission commander on Apollo 11</span>
+            </div>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Buzz_Aldrin" target="_blank" class="image-link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Buzz_Aldrin.jpg/800px-Buzz_Aldrin.jpg" width="150" alt="Wikipedia">
+            <div class="hover-text">
+                <span>Buzz Aldrin was the lunar module pilot on Apollo 11</span>
+            </div>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Michael_Collins_(astronaut)" target="_blank" class="image-link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Michael_Collins_%28S69-31742%2C_restoration%29.jpg/800px-Michael_Collins_%28S69-31742%2C_restoration%29.jpg" width="150" alt="Wikipedia">
+            <div class="hover-text">
+                <span>Michael Collins was the command module pilot on Apollo 11</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="link-box">
+        <h2 id="astropart">Get the Astronomy Picture of the Day from NASA</h2>
+        <a href="codeday.html">
+            <div class="hover-text">
+                <span>Click Me to Open the Astronomy Picture of the Day</span>
+            </div>
+            <img src="https://nsf-gov-resources.nsf.gov/styles/hero_small/s3/2023-04/Andromeda_galaxy_h.jpg?VersionId=IHJS5Rc94YcMivFNWBjtgZ8XUOyJKOCe&itok=kjpCxb_a" width="300" height="300" alt="Astronomy Picture of the Day">
+        </a>
+    </div>
+
+    <div class="link-box">
+        <h2 id="spotifypart">Get a random song from one of your Spotify playlists</h2>
+        <a href="http://localhost:3000/auth.html">
+            <div class="hover-text">
+                <span>Click Me to Get a Random Song from One of Your Spotify Playlists</span>
+            </div>
+            <img src="https://play-lh.googleusercontent.com/cShys-AmJ93dB0SV8kE6Fl5eSaf4-qMMZdwEDKI5VEmKAXfzOqbiaeAsqqrEBCTdIEs" width="300" height="300" alt="Random Spotify Song">
+        </a>
+    </div>
+</body>
+</html>

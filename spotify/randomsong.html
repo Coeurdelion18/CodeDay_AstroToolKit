@@ -1,0 +1,48 @@
+<!-- randomsong.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Song</title>
+</head>
+<body>
+    <h1>Random Song</h1>
+    <div id="song-info"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const accessToken = urlParams.get("access_token");
+        const playlistId = urlParams.get("playlist_id");
+
+        // Fetch playlist details using the access token and playlist ID
+        axios.get(`https://api.spotify.com/v1/playlists/${playlistId}`, {
+            headers: {
+                "Authorization": `Bearer ${accessToken}`
+            }
+        }).then(response => {
+            const playlist = response.data;
+            const tracks = playlist.tracks.items;
+            const randomIndex = Math.floor(Math.random() * tracks.length);
+            const randomTrack = tracks[randomIndex].track;
+
+            const songInfo = document.getElementById("song-info");
+            const songName = document.createElement("h2");
+            songName.textContent = randomTrack.name;
+            const artistName = document.createElement("p");
+            artistName.textContent = `Artist: ${randomTrack.artists[0].name}`;
+            const songLink = document.createElement("a");
+            songLink.href = randomTrack.external_urls.spotify;
+            songLink.textContent = "Listen on Spotify";
+
+            songInfo.appendChild(songName);
+            songInfo.appendChild(artistName);
+            songInfo.appendChild(songLink);
+        }).catch(error => {
+            console.error("Error fetching playlist details:", error);
+        });
+    </script>
+</body>
+</html>

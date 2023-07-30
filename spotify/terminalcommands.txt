@@ -1,0 +1,550 @@
+Last login: Sat Jul 29 22:31:54 on ttys002
+siddharthsastri@Srinaths-MacBook-Air ~ % brew install emacs
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+##################################################################################################################################################################################################### 100.0%
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+##################################################################################################################################################################################################### 100.0%
+Warning: Treating emacs as a formula. For the cask, use homebrew/cask/emacs
+==> Fetching dependencies for emacs: ca-certificates, gmp, libunistring, gettext, libidn2, libtasn1, nettle, p11-kit, openssl@3, libevent, libnghttp2, unbound, gnutls and jansson
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2023-05-30
+##################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:f664c0f185677a82689ada2a4e35c555e48885e6c2fb5e2dfcc82d9fb79cf870
+##################################################################################################################################################################################################### 100.0%
+==> Fetching gmp
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/manifests/6.2.1_1
+##################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/blobs/sha256:dddc6d8c871c92f6e5fb1249c28768aa2b4b47c38836a69cf787a639cf5eee73
+##################################################################################################################################################################################################### 100.0%
+==> Fetching libunistring
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/manifests/1.1
+##################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:73ef01fda8958a495f4d7031cb8d270432d4ae2f11760190676762b95ac7c0f4
+##################################################################################################################################################################################################### 100.0%
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.21.1
+##################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:9318777367eae475e9ea226d2bcbd19ef8281d1dd2af3a92c20c00246677145b
+##################################################################################################################################################################################################### 100.0%
+==> Fetching libidn2
+==> Downloading https://ghcr.io/v2/homebrew/core/libidn2/manifests/2.3.4_1-1
+##################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libidn2/blobs/sha256:5dcfc410f76c7885fffea633054c58c61e8a5dd2a6cfae33c2ea94e27ae0e96b
+##################################################################################################################################################################################################### 100.0%
+==> Fetching libtasn1
+==> Downloading https://ghcr.io/v2/homebrew/core/libtasn1/manifests/4.19.0
+##################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libtasn1/blobs/sha256:2aa4f8396ba40b05b237d503eb4de02c37175903d3e0f26d7a48a031707a71b5
+##################################################################################################################################################################################################### 100.0%
+==> Fetching nettle
+==> Downloading https://ghcr.io/v2/homebrew/core/nettle/manifests/3.9.1
+##################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/nettle/blobs/sha256:8125044368a0ca002deed4578d868d9a90dd8532403eaad9237be8ae3b8f4ef5
+##################################################################################################################################################################################################### 100.0%
+==> Fetching p11-kit
+==> Downloading https://ghcr.io/v2/homebrew/core/p11-kit/manifests/0.25.0
+##################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/p11-kit/blobs/sha256:50c59d8c059b7d5cdc89dfe5d58f29ec5b0cba8a7cbe66be4686555666797a13
+##################################################################################################################################################################################################### 100.0%
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.1.1_1
+##################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:7d21b114cdeb9c924f3efa5ba6e120c6a852b0c7be0dda71354f6704b02e4883
+##################################################################################################################################################################################################### 100.0%
+==> Fetching libevent
+==> Downloading https://ghcr.io/v2/homebrew/core/libevent/manifests/2.1.12_1
+##################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libevent/blobs/sha256:d0557018f19021fb4675a20d9cefda5e13646558c276ab7b4f01f96144b432f8
+##################################################################################################################################################################################################### 100.0%
+==> Fetching libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.55.1
+##################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:ef964731a545c34452f7beabc0f79c8cfb18e935e29cca2d99443dcf5d9ef7e4
+##################################################################################################################################################################################################### 100.0%
+==> Fetching unbound
+==> Downloading https://ghcr.io/v2/homebrew/core/unbound/manifests/1.17.1_1
+##################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/unbound/blobs/sha256:33ca879d0730f0334b20813e68e79d35db8d58e35b06ec275f04d02d49b0f722
+##################################################################################################################################################################################################### 100.0%
+==> Fetching gnutls
+==> Downloading https://ghcr.io/v2/homebrew/core/gnutls/manifests/3.8.0
+##################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gnutls/blobs/sha256:75da330e4d73ade890aa0c998443319d07d4d63089bfd6c16bf7d87ba756bff5
+##################################################################################################################################################################################################### 100.0%
+==> Fetching jansson
+==> Downloading https://ghcr.io/v2/homebrew/core/jansson/manifests/2.14
+##################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/jansson/blobs/sha256:b17770854e930d4302809dd4549142205f99a153a231492a9740f0c18d8e3258
+##################################################################################################################################################################################################### 100.0%
+==> Fetching emacs
+==> Downloading https://ghcr.io/v2/homebrew/core/emacs/manifests/28.2-1
+##################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/emacs/blobs/sha256:4ae23c3a1fa87f997f08d77b874b3ca2995655173125ac0c9b62776a76899f35
+##################################################################################################################################################################################################### 100.0%
+==> Installing dependencies for emacs: ca-certificates, gmp, libunistring, gettext, libidn2, libtasn1, nettle, p11-kit, openssl@3, libevent, libnghttp2, unbound, gnutls and jansson
+==> Installing emacs dependency: ca-certificates
+==> Pouring ca-certificates--2023-05-30.monterey.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /usr/local/Cellar/ca-certificates/2023-05-30: 3 files, 216.2KB
+==> Installing emacs dependency: gmp
+==> Pouring gmp--6.2.1_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/gmp/6.2.1_1: 21 files, 3.3MB
+==> Installing emacs dependency: libunistring
+==> Pouring libunistring--1.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libunistring/1.1: 56 files, 5MB
+==> Installing emacs dependency: gettext
+==> Pouring gettext--0.21.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/gettext/0.21.1: 1,983 files, 20.6MB
+==> Installing emacs dependency: libidn2
+==> Pouring libidn2--2.3.4_1.monterey.bottle.1.tar.gz
+🍺  /usr/local/Cellar/libidn2/2.3.4_1: 79 files, 1003.3KB
+==> Installing emacs dependency: libtasn1
+==> Pouring libtasn1--4.19.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libtasn1/4.19.0: 61 files, 658.4KB
+==> Installing emacs dependency: nettle
+==> Pouring nettle--3.9.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/nettle/3.9.1: 95 files, 2.9MB
+==> Installing emacs dependency: p11-kit
+==> Pouring p11-kit--0.25.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/p11-kit/0.25.0: 67 files, 4.3MB
+==> Installing emacs dependency: openssl@3
+==> Pouring openssl@3--3.1.1_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/openssl@3/3.1.1_1: 6,495 files, 30.0MB
+==> Installing emacs dependency: libevent
+==> Pouring libevent--2.1.12_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libevent/2.1.12_1: 57 files, 2MB
+==> Installing emacs dependency: libnghttp2
+==> Pouring libnghttp2--1.55.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libnghttp2/1.55.1: 13 files, 707.7KB
+==> Installing emacs dependency: unbound
+==> Pouring unbound--1.17.1_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/unbound/1.17.1_1: 58 files, 5.7MB
+==> Installing emacs dependency: gnutls
+==> Pouring gnutls--3.8.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/gnutls/3.8.0: 1,281 files, 10.5MB
+==> Installing emacs dependency: jansson
+==> Pouring jansson--2.14.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/jansson/2.14: 11 files, 210KB
+==> Installing emacs
+==> Pouring emacs--28.2.monterey.bottle.1.tar.gz
+==> Caveats
+To start emacs now and restart at login:
+  brew services start emacs
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/emacs/bin/emacs --fg-daemon
+==> Summary
+🍺  /usr/local/Cellar/emacs/28.2: 4,097 files, 110.4MB
+==> Running `brew cleanup emacs`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> emacs
+To start emacs now and restart at login:
+  brew services start emacs
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/emacs/bin/emacs --fg-daemon
+siddharthsastri@Srinaths-MacBook-Air ~ % fish
+cWelcome to fish, the friendly interactive shell
+Type help for instructions on how to use fish
+siddharthsastri@Srinaths-MacBook-Air ~> cd Desktop/project/
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> emacs server.py 
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> mv server.py __main__.py
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> ls
+__main__.py  server.py~
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> python3 
+Python 3.9.6 (default, Oct 18 2022, 12:41:40) 
+[Clang 14.0.0 (clang-1400.0.29.202)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+>>> ^D
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> rm -rf server.py\~ 
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> python3 -help
+usage: /Library/Developer/CommandLineTools/usr/bin/python3 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Options and arguments (and corresponding environment variables):
+-b     : issue warnings about str(bytes_instance), str(bytearray_instance)
+         and comparing bytes/bytearray with str. (-bb: issue errors)
+-B     : don't write .pyc files on import; also PYTHONDONTWRITEBYTECODE=x
+-c cmd : program passed in as string (terminates option list)
+-d     : turn on parser debugging output (for experts only, only works on
+         debug builds); also PYTHONDEBUG=x
+-E     : ignore PYTHON* environment variables (such as PYTHONPATH)
+-h     : print this help message and exit (also --help)
+-i     : inspect interactively after running script; forces a prompt even
+         if stdin does not appear to be a terminal; also PYTHONINSPECT=x
+-I     : isolate Python from the user's environment (implies -E and -s)
+-m mod : run library module as a script (terminates option list)
+-O     : remove assert and __debug__-dependent statements; add .opt-1 before
+         .pyc extension; also PYTHONOPTIMIZE=x
+-OO    : do -O changes and also discard docstrings; add .opt-2 before
+         .pyc extension
+-q     : don't print version and copyright messages on interactive startup
+-s     : don't add user site directory to sys.path; also PYTHONNOUSERSITE
+-S     : don't imply 'import site' on initialization
+-u     : force the stdout and stderr streams to be unbuffered;
+         this option has no effect on stdin; also PYTHONUNBUFFERED=x
+-v     : verbose (trace import statements); also PYTHONVERBOSE=x
+         can be supplied multiple times to increase verbosity
+-V     : print the Python version number and exit (also --version)
+         when given twice, print more information about the build
+-W arg : warning control; arg is action:message:category:module:lineno
+         also PYTHONWARNINGS=arg
+-x     : skip first line of source, allowing use of non-Unix forms of #!cmd
+-X opt : set implementation-specific option. The following options are available:
+
+         -X faulthandler: enable faulthandler
+         -X oldparser: enable the traditional LL(1) parser; also PYTHONOLDPARSER
+         -X showrefcount: output the total reference count and number of used
+             memory blocks when the program finishes or after each statement in the
+             interactive interpreter. This only works on debug builds
+         -X tracemalloc: start tracing Python memory allocations using the
+             tracemalloc module. By default, only the most recent frame is stored in a
+             traceback of a trace. Use -X tracemalloc=NFRAME to start tracing with a
+             traceback limit of NFRAME frames
+         -X importtime: show how long each import takes. It shows module name,
+             cumulative time (including nested imports) and self time (excluding
+             nested imports). Note that its output may be broken in multi-threaded
+             application. Typical usage is python3 -X importtime -c 'import asyncio'
+         -X dev: enable CPython's "development mode", introducing additional runtime
+             checks which are too expensive to be enabled by default. Effect of the
+             developer mode:
+                * Add default warning filter, as -W default
+                * Install debug hooks on memory allocators: see the PyMem_SetupDebugHooks() C function
+                * Enable the faulthandler module to dump the Python traceback on a crash
+                * Enable asyncio debug mode
+                * Set the dev_mode attribute of sys.flags to True
+                * io.IOBase destructor logs close() exceptions
+         -X utf8: enable UTF-8 mode for operating system interfaces, overriding the default
+             locale-aware mode. -X utf8=0 explicitly disables UTF-8 mode (even when it would
+             otherwise activate automatically)
+         -X pycache_prefix=PATH: enable writing .pyc files to a parallel tree rooted at the
+             given directory instead of to the code tree
+
+--check-hash-based-pycs always|default|never:
+    control how Python invalidates hash-based .pyc files
+file   : program read from script file
+-      : program read from stdin (default; interactive mode if a tty)
+arg ...: arguments passed to program in sys.argv[1:]
+
+Other environment variables:
+PYTHONSTARTUP: file executed on interactive startup (no default)
+PYTHONPATH   : ':'-separated list of directories prefixed to the
+               default module search path.  The result is sys.path.
+PYTHONHOME   : alternate <prefix> directory (or <prefix>:<exec_prefix>).
+               The default module search path uses <prefix>/lib/pythonX.X.
+PYTHONPLATLIBDIR : override sys.platlibdir.
+PYTHONCASEOK : ignore case in 'import' statements (Windows).
+PYTHONUTF8: if set to 1, enable the UTF-8 mode.
+PYTHONIOENCODING: Encoding[:errors] used for stdin/stdout/stderr.
+PYTHONFAULTHANDLER: dump the Python traceback on fatal errors.
+PYTHONHASHSEED: if this variable is set to 'random', a random value is used
+   to seed the hashes of str and bytes objects.  It can also be set to an
+   integer in the range [0,4294967295] to get hash values with a
+   predictable seed.
+PYTHONMALLOC: set the Python memory allocators and/or install debug hooks
+   on Python memory allocators. Use PYTHONMALLOC=debug to install debug
+   hooks.
+PYTHONCOERCECLOCALE: if this variable is set to 0, it disables the locale
+   coercion behavior. Use PYTHONCOERCECLOCALE=warn to request display of
+   locale coercion and locale compatibility warnings on stderr.
+PYTHONBREAKPOINT: if this variable is set to 0, it disables the default
+   debugger. It can be set to the callable of your debugger of choice.
+PYTHONDEVMODE: enable the development mode.
+PYTHONPYCACHEPREFIX: root directory for bytecode cache (pyc) files.
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> python3 __main__.py 
+INFO:     Started server process [7827]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://localhost:3000 (Press CTRL+C to quit)
+INFO:     ::1:50627 - "GET /__main__.py HTTP/1.1" 200 OK
+INFO:     ::1:50627 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50628 - "GET /__main__.py HTTP/1.1" 200 OK
+INFO:     ::1:50628 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50731 - "GET /auth.py HTTP/1.1" 200 OK
+INFO:     ::1:50731 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50731 - "GET /auth.html HTTP/1.1" 200 OK
+INFO:     ::1:50731 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50732 - "GET /redirect.html HTTP/1.1" 200 OK
+INFO:     ::1:50732 - "GET /playlists.html?access_token=BQCxIcWJVhEfcLrvJjW6fOGt4YVU8ppbFps0boOLTimbMU9zFp4FbEjGiB01nmhHLLIqN4XTH96uka4PUlyd0clCi66fPM3t6GCCPUBBgjokPx4G-5v0r0oCzrKB5tzJqM2XBDFwp5T1c7mon2dhvV44K3qtqVJo8KVR2jV2jygN-jlhVTfafUIOB-Je-XPvZZ61fDi-8PUd98vVi4T0anQxWU0 HTTP/1.1" 200 OK
+INFO:     ::1:50732 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50732 - "GET /randomsong.html?access_token=BQCxIcWJVhEfcLrvJjW6fOGt4YVU8ppbFps0boOLTimbMU9zFp4FbEjGiB01nmhHLLIqN4XTH96uka4PUlyd0clCi66fPM3t6GCCPUBBgjokPx4G-5v0r0oCzrKB5tzJqM2XBDFwp5T1c7mon2dhvV44K3qtqVJo8KVR2jV2jygN-jlhVTfafUIOB-Je-XPvZZ61fDi-8PUd98vVi4T0anQxWU0&playlist_id=37i9dQZF1DZ06evO0PRpBu HTTP/1.1" 200 OK
+INFO:     ::1:50732 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50733 - "GET /randomsong.html?access_token=BQCxIcWJVhEfcLrvJjW6fOGt4YVU8ppbFps0boOLTimbMU9zFp4FbEjGiB01nmhHLLIqN4XTH96uka4PUlyd0clCi66fPM3t6GCCPUBBgjokPx4G-5v0r0oCzrKB5tzJqM2XBDFwp5T1c7mon2dhvV44K3qtqVJo8KVR2jV2jygN-jlhVTfafUIOB-Je-XPvZZ61fDi-8PUd98vVi4T0anQxWU0&playlist_id=37i9dQZF1DZ06evO0PRpBu HTTP/1.1" 200 OK
+INFO:     ::1:50733 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50733 - "GET /randomsong.html?access_token=BQCxIcWJVhEfcLrvJjW6fOGt4YVU8ppbFps0boOLTimbMU9zFp4FbEjGiB01nmhHLLIqN4XTH96uka4PUlyd0clCi66fPM3t6GCCPUBBgjokPx4G-5v0r0oCzrKB5tzJqM2XBDFwp5T1c7mon2dhvV44K3qtqVJo8KVR2jV2jygN-jlhVTfafUIOB-Je-XPvZZ61fDi-8PUd98vVi4T0anQxWU0&playlist_id=37i9dQZF1DZ06evO0PRpBu HTTP/1.1" 200 OK
+INFO:     ::1:50733 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50733 - "GET /randomsong.html?access_token=BQCxIcWJVhEfcLrvJjW6fOGt4YVU8ppbFps0boOLTimbMU9zFp4FbEjGiB01nmhHLLIqN4XTH96uka4PUlyd0clCi66fPM3t6GCCPUBBgjokPx4G-5v0r0oCzrKB5tzJqM2XBDFwp5T1c7mon2dhvV44K3qtqVJo8KVR2jV2jygN-jlhVTfafUIOB-Je-XPvZZ61fDi-8PUd98vVi4T0anQxWU0&playlist_id=37i9dQZF1DZ06evO0PRpBu HTTP/1.1" 200 OK
+INFO:     ::1:50733 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50751 - "GET / HTTP/1.1" 200 OK
+INFO:     ::1:50751 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50756 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50756 - "GET /auth.html HTTP/1.1" 200 OK
+INFO:     ::1:50756 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50756 - "GET /redirect.html HTTP/1.1" 200 OK
+INFO:     ::1:50756 - "GET /playlists.html?access_token=BQDMXJajnA9j3P6BaQJSrGuQO6_RUpMP2jevn_sl5M8Irxt3ql8DcVNzDWBIf6zv5zm3hVrK6k1utfPwx1cryiTWfS4p3JMItnxf0odLWJ0k4ZgXfJLjSHSiXQNWut4ndMaCrbOknaQYZDgi9HJfWkMLbi79L5ytQxjxIrkYD403hvGOPQY8fTxf1JgLyXYPrIK5YWTN4ti3lzwk_5xn2nY9L2U HTTP/1.1" 200 OK
+INFO:     ::1:50756 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50759 - "GET /randomsong.html?access_token=BQDMXJajnA9j3P6BaQJSrGuQO6_RUpMP2jevn_sl5M8Irxt3ql8DcVNzDWBIf6zv5zm3hVrK6k1utfPwx1cryiTWfS4p3JMItnxf0odLWJ0k4ZgXfJLjSHSiXQNWut4ndMaCrbOknaQYZDgi9HJfWkMLbi79L5ytQxjxIrkYD403hvGOPQY8fTxf1JgLyXYPrIK5YWTN4ti3lzwk_5xn2nY9L2U&playlist_id=3Mp5sGfekQK9YGg4K6vxQb HTTP/1.1" 200 OK
+INFO:     ::1:50759 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50804 - "GET /newthing.txt HTTP/1.1" 200 OK
+INFO:     ::1:50804 - "GET /favicon.ico HTTP/1.1" 200 OK
+^CINFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7827]
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> python3 __main_^C
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> cd ~/Desktop/project/
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> python3 __main__.py
+INFO:     Started server process [8334]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://localhost:3000 (Press CTRL+C to quit)
+INFO:     ::1:50822 - "GET /newthing.siddharth HTTP/1.1" 200 OK
+INFO:     ::1:50822 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50826 - "GET / HTTP/1.1" 200 OK
+INFO:     ::1:50826 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50830 - "GET /auth.html HTTP/1.1" 200 OK
+INFO:     ::1:50830 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50830 - "GET /redirect.html HTTP/1.1" 200 OK
+INFO:     ::1:50830 - "GET /playlists.html?access_token=BQD0HQZQa7hcK091UGn6De94AEC57dnHu3UkwqW0EGS6Dlu3fwfbNPL32IG2V1rTqY1GqDsMntXC_u1sIOp-G7URvQpCdjkCgDBn_jnOOtHqwCF7KFX2HVkHloL5gBl96iKGgV3ilESVuvmTVQCtEoArcu_bhWjt4DKCTUF59_r8O66d6Ukh-75boWjH01oPBd6B7TwysDjAkakOpfyQqUGyBX0 HTTP/1.1" 200 OK
+INFO:     ::1:50830 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50832 - "GET /auth.html HTTP/1.1" 200 OK
+INFO:     ::1:50832 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50831 - "GET /auth.html HTTP/1.1" 200 OK
+INFO:     ::1:50831 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50843 - "GET / HTTP/1.1" 200 OK
+INFO:     ::1:50843 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50843 - "GET /auth.html HTTP/1.1" 200 OK
+INFO:     ::1:50843 - "GET /favicon.ico HTTP/1.1" 200 OK
+^CINFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8334]
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> python3 __main__.py
+^CTraceback (most recent call last):
+  File "/Users/siddharthsastri/Desktop/project/__main__.py", line 15, in <module>
+    import uvicorn
+  File "/Users/siddharthsastri/Library/Python/3.9/lib/python/site-packages/uvicorn/__init__.py", line 1, in <module>
+    from uvicorn.config import Config
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 941, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1039, in get_data
+KeyboardInterrupt
+siddharthsastri@Srinaths-MacBook-Air ~/D/project [SIGINT]> python3 __main__.py
+INFO:     Started server process [8671]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://localhost:3000 (Press CTRL+C to quit)
+^CINFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8671]
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> python3 __main__.py
+INFO:     Started server process [8679]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://localhost:3000 (Press CTRL+C to quit)
+INFO:     ::1:50965 - "GET /auth.html HTTP/1.1" 200 OK
+INFO:     ::1:50965 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50965 - "GET /redirect.html HTTP/1.1" 200 OK
+INFO:     ::1:50965 - "GET /playlists.html?access_token=BQC8-Um0UsXVCmA-BtpCqR3Xxp89ZaYqgyjltZpYyW38D1TqPT4KHXqGm0OokH1kQRPWY3KF9IRF7CndMP04S80yLybAXTxV5MOlf8klEIchqLwtqArB31zikw6O8n2-6nNo8UpCwJXkK9lv_08V_LR64bLAX8iHeKbjzKZijVTDKLoh6ie2nl8qzahP8Pm3KrUdDvoi8HJomtu33pexYsBAe94 HTTP/1.1" 200 OK
+INFO:     ::1:50965 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:50970 - "GET /randomsong.html?access_token=BQC8-Um0UsXVCmA-BtpCqR3Xxp89ZaYqgyjltZpYyW38D1TqPT4KHXqGm0OokH1kQRPWY3KF9IRF7CndMP04S80yLybAXTxV5MOlf8klEIchqLwtqArB31zikw6O8n2-6nNo8UpCwJXkK9lv_08V_LR64bLAX8iHeKbjzKZijVTDKLoh6ie2nl8qzahP8Pm3KrUdDvoi8HJomtu33pexYsBAe94&playlist_id=37i9dQZF1DZ06evO3r3n5S HTTP/1.1" 200 OK
+INFO:     ::1:50970 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51006 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51006 - "GET /randomsong.html?access_token=BQDMXJajnA9j3P6BaQJSrGuQO6_RUpMP2jevn_sl5M8Irxt3ql8DcVNzDWBIf6zv5zm3hVrK6k1utfPwx1cryiTWfS4p3JMItnxf0odLWJ0k4ZgXfJLjSHSiXQNWut4ndMaCrbOknaQYZDgi9HJfWkMLbi79L5ytQxjxIrkYD403hvGOPQY8fTxf1JgLyXYPrIK5YWTN4ti3lzwk_5xn2nY9L2U&playlist_id=58HTcalJIN6uKB91Z7zaKz HTTP/1.1" 200 OK
+INFO:     ::1:51006 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51008 - "GET /randomsong.html?access_token=BQDMXJajnA9j3P6BaQJSrGuQO6_RUpMP2jevn_sl5M8Irxt3ql8DcVNzDWBIf6zv5zm3hVrK6k1utfPwx1cryiTWfS4p3JMItnxf0odLWJ0k4ZgXfJLjSHSiXQNWut4ndMaCrbOknaQYZDgi9HJfWkMLbi79L5ytQxjxIrkYD403hvGOPQY8fTxf1JgLyXYPrIK5YWTN4ti3lzwk_5xn2nY9L2U&playlist_id=58HTcalJIN6uKB91Z7zaKz HTTP/1.1" 200 OK
+INFO:     ::1:51008 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51008 - "GET /randomsong.html?access_token=BQDMXJajnA9j3P6BaQJSrGuQO6_RUpMP2jevn_sl5M8Irxt3ql8DcVNzDWBIf6zv5zm3hVrK6k1utfPwx1cryiTWfS4p3JMItnxf0odLWJ0k4ZgXfJLjSHSiXQNWut4ndMaCrbOknaQYZDgi9HJfWkMLbi79L5ytQxjxIrkYD403hvGOPQY8fTxf1JgLyXYPrIK5YWTN4ti3lzwk_5xn2nY9L2U&playlist_id=58HTcalJIN6uKB91Z7zaKz HTTP/1.1" 200 OK
+INFO:     ::1:51008 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51008 - "GET /randomsong.html?access_token=BQDMXJajnA9j3P6BaQJSrGuQO6_RUpMP2jevn_sl5M8Irxt3ql8DcVNzDWBIf6zv5zm3hVrK6k1utfPwx1cryiTWfS4p3JMItnxf0odLWJ0k4ZgXfJLjSHSiXQNWut4ndMaCrbOknaQYZDgi9HJfWkMLbi79L5ytQxjxIrkYD403hvGOPQY8fTxf1JgLyXYPrIK5YWTN4ti3lzwk_5xn2nY9L2U&playlist_id=58HTcalJIN6uKB91Z7zaKz HTTP/1.1" 200 OK
+INFO:     ::1:51008 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51008 - "GET /randomsong.html?access_token=BQDMXJajnA9j3P6BaQJSrGuQO6_RUpMP2jevn_sl5M8Irxt3ql8DcVNzDWBIf6zv5zm3hVrK6k1utfPwx1cryiTWfS4p3JMItnxf0odLWJ0k4ZgXfJLjSHSiXQNWut4ndMaCrbOknaQYZDgi9HJfWkMLbi79L5ytQxjxIrkYD403hvGOPQY8fTxf1JgLyXYPrIK5YWTN4ti3lzwk_5xn2nY9L2U&playlist_id=58HTcalJIN6uKB91Z7zaKz HTTP/1.1" 200 OK
+INFO:     ::1:51008 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51009 - "GET /randomsong.html?access_token=BQDMXJajnA9j3P6BaQJSrGuQO6_RUpMP2jevn_sl5M8Irxt3ql8DcVNzDWBIf6zv5zm3hVrK6k1utfPwx1cryiTWfS4p3JMItnxf0odLWJ0k4ZgXfJLjSHSiXQNWut4ndMaCrbOknaQYZDgi9HJfWkMLbi79L5ytQxjxIrkYD403hvGOPQY8fTxf1JgLyXYPrIK5YWTN4ti3lzwk_5xn2nY9L2U&playlist_id=58HTcalJIN6uKB91Z7zaKz HTTP/1.1" 200 OK
+INFO:     ::1:51009 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51009 - "GET /randomsong.html?access_token=BQDMXJajnA9j3P6BaQJSrGuQO6_RUpMP2jevn_sl5M8Irxt3ql8DcVNzDWBIf6zv5zm3hVrK6k1utfPwx1cryiTWfS4p3JMItnxf0odLWJ0k4ZgXfJLjSHSiXQNWut4ndMaCrbOknaQYZDgi9HJfWkMLbi79L5ytQxjxIrkYD403hvGOPQY8fTxf1JgLyXYPrIK5YWTN4ti3lzwk_5xn2nY9L2U&playlist_id=58HTcalJIN6uKB91Z7zaKz HTTP/1.1" 200 OK
+INFO:     ::1:51009 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51025 - "GET /playlists.html HTTP/1.0" 200 OK
+INFO:     ::1:51150 - "GET /auth.html HTTP/1.1" 200 OK
+INFO:     ::1:51150 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51150 - "GET /redirect.html HTTP/1.1" 200 OK
+INFO:     ::1:51150 - "GET /playlists.html?access_token=BQBM7Fwt-BLiMolTFgXZ9QY-F7OvulRGXAC-_VOfP3FD-TG17d4CALZGcqnlgBWMYWEMp8qrnXcQHSRw2TuBi0DLz91va6AWg7H4za1-FKjOleAzhg_rRsQztdwU-8Ah0cswHLdYh2f2DbOftONjNi0Hbb8ywE6he82JKWT0ABDUs0_r82Mu14rVWcY5Rss-DO9z5F8Wwd0sNXljyjn70m2XCnU HTTP/1.1" 200 OK
+INFO:     ::1:51150 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51192 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51322 - "GET /auth.html HTTP/1.1" 200 OK
+INFO:     ::1:51322 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51322 - "GET /redirect.html HTTP/1.1" 200 OK
+INFO:     ::1:51322 - "GET /playlists.html?access_token=BQCNMsJvJZJAJpv2SVBnwWJCHavhKaNa3pzwGHq_5oy-lZ8scy6IO7Qqk5N6vIui6DNDYZvK2yV-G033-ffg18ihAPnLm8N_ugMx0mzMNqQetLYlDpVYIvZ6cuiZpeBnwdcOmZQsMI81f1Mn6274NAM4fbHEhtrY2mfTtbxrwQDFjjvIsmdwxM0qqTXtElcpc-Svj5xGBmC1fcp_V36yv7FkGMI HTTP/1.1" 200 OK
+INFO:     ::1:51322 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51325 - "GET /randomsong.html?access_token=BQCNMsJvJZJAJpv2SVBnwWJCHavhKaNa3pzwGHq_5oy-lZ8scy6IO7Qqk5N6vIui6DNDYZvK2yV-G033-ffg18ihAPnLm8N_ugMx0mzMNqQetLYlDpVYIvZ6cuiZpeBnwdcOmZQsMI81f1Mn6274NAM4fbHEhtrY2mfTtbxrwQDFjjvIsmdwxM0qqTXtElcpc-Svj5xGBmC1fcp_V36yv7FkGMI&playlist_id=37i9dQZF1E4t3XGxrTxUnP HTTP/1.1" 200 OK
+INFO:     ::1:51325 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51411 - "GET /auth.html HTTP/1.1" 200 OK
+INFO:     ::1:51411 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51411 - "GET /playlists.html?access_token=BQBhpTANhCa3YPggU_rY44Bzxp_XiY05lYl1fZfdW0EwEFF5Ap9v4ximrZm8BIRE5DpmJ94dCD7Wx2gJs_W7O1u2bMhEQbo9XyGFBonbKwhXcZJuoyeQz7bMLihgVgvc2RIz9x4rfIk-gQA3my6t2q5PN2oP29GuPIYJP8oyaXi1z429HIVLy0KioW-HkkFU5v2f4Erw00YydcQL5ZpF9Nd9g48 HTTP/1.1" 200 OK
+INFO:     ::1:51411 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51411 - "GET /randomsong.html?access_token=BQBhpTANhCa3YPggU_rY44Bzxp_XiY05lYl1fZfdW0EwEFF5Ap9v4ximrZm8BIRE5DpmJ94dCD7Wx2gJs_W7O1u2bMhEQbo9XyGFBonbKwhXcZJuoyeQz7bMLihgVgvc2RIz9x4rfIk-gQA3my6t2q5PN2oP29GuPIYJP8oyaXi1z429HIVLy0KioW-HkkFU5v2f4Erw00YydcQL5ZpF9Nd9g48&playlist_id=37i9dQZF1DZ06evO0PRpBu HTTP/1.1" 200 OK
+INFO:     ::1:51411 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51559 - "GET /auth.html HTTP/1.1" 200 OK
+INFO:     ::1:51559 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51560 - "GET /redirect.html HTTP/1.1" 200 OK
+INFO:     ::1:51560 - "GET /playlists.html?access_token=BQALTKKclH5WVH8B5LeDPMP60iFxHzE871Bi6Y6-Mq36o799Mc6vk0CnP59lD38rlWmqw6sl5_Rgkkvb73KThc9qnRtaCCdb2Iq14zf3MysayvPmrNaWZP_i6NVRr_mRPb0Otcpj5q_BL2gfL7ALGgbhrO4ATR0jEOXb4hIbxS5VXGtWO8WUzDzFUQumYGOtjF61QauABiNBBf__JIpibXHnqgo HTTP/1.1" 200 OK
+INFO:     ::1:51560 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51562 - "GET /randomsong.html?access_token=BQALTKKclH5WVH8B5LeDPMP60iFxHzE871Bi6Y6-Mq36o799Mc6vk0CnP59lD38rlWmqw6sl5_Rgkkvb73KThc9qnRtaCCdb2Iq14zf3MysayvPmrNaWZP_i6NVRr_mRPb0Otcpj5q_BL2gfL7ALGgbhrO4ATR0jEOXb4hIbxS5VXGtWO8WUzDzFUQumYGOtjF61QauABiNBBf__JIpibXHnqgo&playlist_id=3Mp5sGfekQK9YGg4K6vxQb HTTP/1.1" 200 OK
+INFO:     ::1:51562 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51563 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51565 - "GET /playlists.html?access_token=BQDlmpp9Bg2OU5tWTnNOmBCXI9WDNhTBbAvb66E-Fb32geBpbjFkw5WJMirAoO0wF9tjpiTvOo_i_eJD9tYHrxBLm1MiT6wSlLr3kk1QnVeJiRJU3CwtW0fkxbfuSaM6vGo4swGBus-Kb1oavbfAh6WNVJc27865CYv5SVsOthsnaqebIT7QC2Ymg0E4hQOIv7LKLmzxnaxbZBDEgAmdM_7PCd8 HTTP/1.1" 200 OK
+INFO:     ::1:51565 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51565 - "GET /randomsong.html?access_token=BQDlmpp9Bg2OU5tWTnNOmBCXI9WDNhTBbAvb66E-Fb32geBpbjFkw5WJMirAoO0wF9tjpiTvOo_i_eJD9tYHrxBLm1MiT6wSlLr3kk1QnVeJiRJU3CwtW0fkxbfuSaM6vGo4swGBus-Kb1oavbfAh6WNVJc27865CYv5SVsOthsnaqebIT7QC2Ymg0E4hQOIv7LKLmzxnaxbZBDEgAmdM_7PCd8&playlist_id=37i9dQZF1DZ06evO0PRpBu HTTP/1.1" 200 OK
+INFO:     ::1:51565 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51593 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51593 - "GET /playlists.html?access_token=BQAmIqX1xZEMfWgSiqXl_QsyUJ7oNMD7FsBT1YpdVHrgyeGn9V4aOIIpDqpPVyLMK8pITY42rNUTG79VG_EM-TRXxupXeW1Er8qD0v-_g8o0FpH4ES7jCGOw4KezdGRq_hbSh0dHkwWWAD3hjZDRq84QIiQ8tleWbsbC3g_s5kmJCtaNfcLr-5E-cVkXPC4bjMPAfUsh2dyR9Pi4v7yGFd_eZYI HTTP/1.1" 200 OK
+INFO:     ::1:51593 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51595 - "GET /randomsong.html?access_token=BQAmIqX1xZEMfWgSiqXl_QsyUJ7oNMD7FsBT1YpdVHrgyeGn9V4aOIIpDqpPVyLMK8pITY42rNUTG79VG_EM-TRXxupXeW1Er8qD0v-_g8o0FpH4ES7jCGOw4KezdGRq_hbSh0dHkwWWAD3hjZDRq84QIiQ8tleWbsbC3g_s5kmJCtaNfcLr-5E-cVkXPC4bjMPAfUsh2dyR9Pi4v7yGFd_eZYI&playlist_id=37i9dQZF1DZ06evO0PRpBu HTTP/1.1" 200 OK
+INFO:     ::1:51595 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51596 - "GET /randomsong.html?access_token=BQAmIqX1xZEMfWgSiqXl_QsyUJ7oNMD7FsBT1YpdVHrgyeGn9V4aOIIpDqpPVyLMK8pITY42rNUTG79VG_EM-TRXxupXeW1Er8qD0v-_g8o0FpH4ES7jCGOw4KezdGRq_hbSh0dHkwWWAD3hjZDRq84QIiQ8tleWbsbC3g_s5kmJCtaNfcLr-5E-cVkXPC4bjMPAfUsh2dyR9Pi4v7yGFd_eZYI&playlist_id=37i9dQZF1DZ06evO0PRpBu HTTP/1.1" 200 OK
+INFO:     ::1:51596 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51596 - "GET /randomsong.html?access_token=BQAmIqX1xZEMfWgSiqXl_QsyUJ7oNMD7FsBT1YpdVHrgyeGn9V4aOIIpDqpPVyLMK8pITY42rNUTG79VG_EM-TRXxupXeW1Er8qD0v-_g8o0FpH4ES7jCGOw4KezdGRq_hbSh0dHkwWWAD3hjZDRq84QIiQ8tleWbsbC3g_s5kmJCtaNfcLr-5E-cVkXPC4bjMPAfUsh2dyR9Pi4v7yGFd_eZYI&playlist_id=37i9dQZF1DZ06evO0PRpBu HTTP/1.1" 200 OK
+INFO:     ::1:51596 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51596 - "GET /randomsong.html?access_token=BQAmIqX1xZEMfWgSiqXl_QsyUJ7oNMD7FsBT1YpdVHrgyeGn9V4aOIIpDqpPVyLMK8pITY42rNUTG79VG_EM-TRXxupXeW1Er8qD0v-_g8o0FpH4ES7jCGOw4KezdGRq_hbSh0dHkwWWAD3hjZDRq84QIiQ8tleWbsbC3g_s5kmJCtaNfcLr-5E-cVkXPC4bjMPAfUsh2dyR9Pi4v7yGFd_eZYI&playlist_id=37i9dQZF1DZ06evO0PRpBu HTTP/1.1" 200 OK
+INFO:     ::1:51596 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51596 - "GET /randomsong.html?access_token=BQAmIqX1xZEMfWgSiqXl_QsyUJ7oNMD7FsBT1YpdVHrgyeGn9V4aOIIpDqpPVyLMK8pITY42rNUTG79VG_EM-TRXxupXeW1Er8qD0v-_g8o0FpH4ES7jCGOw4KezdGRq_hbSh0dHkwWWAD3hjZDRq84QIiQ8tleWbsbC3g_s5kmJCtaNfcLr-5E-cVkXPC4bjMPAfUsh2dyR9Pi4v7yGFd_eZYI&playlist_id=37i9dQZF1DZ06evO0PRpBu HTTP/1.1" 200 OK
+INFO:     ::1:51596 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51596 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51977 - "GET /auth.html HTTP/1.1" 200 OK
+INFO:     ::1:51977 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51977 - "GET /redirect.html HTTP/1.1" 200 OK
+INFO:     ::1:51977 - "GET /playlists.html?access_token=BQBGKSszDPM6678B_3s57N0292UZ1zQXdEQFScb-35uQ5BNtr-Ng2pscX_i9BgIN6T4eVd7YbKxM3aC3hfHpz72JbKhj5ISdnw8oKSK54knVgxbVBjNX-9v6TEssxjBv64F1uZojMdHWCFVuDvUzcuQqbe2wTA4W3aQ7lPjf1gPQr7BlP2TMSkSzgixjG8NGYL5zzZ8EFbCHkAMvQHsRHmUUNzM HTTP/1.1" 200 OK
+INFO:     ::1:51977 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51977 - "GET /randomsong.html?access_token=BQBGKSszDPM6678B_3s57N0292UZ1zQXdEQFScb-35uQ5BNtr-Ng2pscX_i9BgIN6T4eVd7YbKxM3aC3hfHpz72JbKhj5ISdnw8oKSK54knVgxbVBjNX-9v6TEssxjBv64F1uZojMdHWCFVuDvUzcuQqbe2wTA4W3aQ7lPjf1gPQr7BlP2TMSkSzgixjG8NGYL5zzZ8EFbCHkAMvQHsRHmUUNzM&playlist_id=37i9dQZEVXcVQ7iZcy2jYH HTTP/1.1" 200 OK
+INFO:     ::1:51977 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:51981 - "GET /favicon.ico HTTP/1.1" 200 OK
+^CINFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8679]
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> ipconfig
+usage: ipconfig <command> <args>
+where <command> is one of waitall, getifaddr, ifcount, getoption, getiflist, getsummary, getpacket, getv6packet, getra, set, setverbose
+siddharthsastri@Srinaths-MacBook-Air ~/D/project [1]> ifconfig
+lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
+	options=1203<RXCSUM,TXCSUM,TXSTATUS,SW_TIMESTAMP>
+	inet 127.0.0.1 netmask 0xff000000 
+	inet6 ::1 prefixlen 128 
+	inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1 
+	nd6 options=201<PERFORMNUD,DAD>
+gif0: flags=8010<POINTOPOINT,MULTICAST> mtu 1280
+stf0: flags=0<> mtu 1280
+en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether 98:e0:d9:7e:06:e3 
+	inet6 fe80::c36:47b0:5aeb:22ae%en0 prefixlen 64 secured scopeid 0x4 
+	inet 10.20.89.118 netmask 0xffff0000 broadcast 10.20.255.255
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+en1: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+	options=460<TSO4,TSO6,CHANNEL_IO>
+	ether 82:18:02:bd:00:40 
+	media: autoselect <full-duplex>
+	status: inactive
+bridge0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=63<RXCSUM,TXCSUM,TSO4,TSO6>
+	ether 82:18:02:bd:00:40 
+	Configuration:
+		id 0:0:0:0:0:0 priority 0 hellotime 0 fwddelay 0
+		maxage 0 holdcnt 0 proto stp maxaddr 100 timeout 1200
+		root id 0:0:0:0:0:0 priority 0 ifcost 0 port 0
+		ipfilter disabled flags 0x0
+	member: en1 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 5 priority 0 path cost 0
+	nd6 options=201<PERFORMNUD,DAD>
+	media: <unknown type>
+	status: inactive
+p2p0: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 2304
+	options=400<CHANNEL_IO>
+	ether 0a:e0:d9:7e:06:e3 
+	media: autoselect
+	status: inactive
+awdl0: flags=8943<UP,BROADCAST,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1484
+	options=400<CHANNEL_IO>
+	ether 86:ac:d9:72:30:b9 
+	inet6 fe80::84ac:d9ff:fe72:30b9%awdl0 prefixlen 64 scopeid 0x8 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+llw0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether 86:ac:d9:72:30:b9 
+	inet6 fe80::84ac:d9ff:fe72:30b9%llw0 prefixlen 64 scopeid 0x9 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+utun0: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::9b3f:71e8:e67d:d6cb%utun0 prefixlen 64 scopeid 0xa 
+	nd6 options=201<PERFORMNUD,DAD>
+utun1: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 2000
+	inet6 fe80::fae8:2108:d9e9:7940%utun1 prefixlen 64 scopeid 0xb 
+	nd6 options=201<PERFORMNUD,DAD>
+utun2: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1000
+	inet6 fe80::ce81:b1c:bd2c:69e%utun2 prefixlen 64 scopeid 0xc 
+	nd6 options=201<PERFORMNUD,DAD>
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> ls
+__main__.py           __main__.py~          auth.html             auth.html~            newthing.txt          playlists.html        randomsong.html       redirect.html         space_background.jpg
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> emacs
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> python3 __main__.py
+INFO:     Started server process [12643]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://[::]:3000 (Press CTRL+C to quit)
+^CINFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12643]
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> emacs
+siddharthsastri@Srinaths-MacBook-Air ~/D/project> python3 __main__.py
+INFO:     Started server process [12695]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://localhost:3000 (Press CTRL+C to quit)
+INFO:     ::1:52127 - "GET / HTTP/1.1" 200 OK
+INFO:     ::1:52127 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:52133 - "GET /auth.html HTTP/1.1" 200 OK
+INFO:     ::1:52133 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:52133 - "GET /redirect.html HTTP/1.1" 200 OK
+INFO:     ::1:52133 - "GET /playlists.html?access_token=BQAiS4AdBEzyww1M2fNyQB9RYyoM5rmEukMI_gdfdSrj_YR5c6ZGhteGBLxv_ZByKf34VRnvjhfK-5ne2aoXJs8hCM_4GYKsSF4F5vnpH6SctoZikL-PYp-VIfX8gWLaKVeD8rXnsYAOHQ-aYbrh-DKj4lWV1HdzE3bRuynvBkvpUQJu3ODCLWL6NajXT55roInvd4x3wO59mCuuCR9U5ive6TA HTTP/1.1" 200 OK
+INFO:     ::1:52133 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:52133 - "GET /randomsong.html?access_token=BQAiS4AdBEzyww1M2fNyQB9RYyoM5rmEukMI_gdfdSrj_YR5c6ZGhteGBLxv_ZByKf34VRnvjhfK-5ne2aoXJs8hCM_4GYKsSF4F5vnpH6SctoZikL-PYp-VIfX8gWLaKVeD8rXnsYAOHQ-aYbrh-DKj4lWV1HdzE3bRuynvBkvpUQJu3ODCLWL6NajXT55roInvd4x3wO59mCuuCR9U5ive6TA&playlist_id=37i9dQZEVXcVQ7iZcy2jYH HTTP/1.1" 200 OK
+INFO:     ::1:52133 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:52194 - "GET /auth.html HTTP/1.1" 200 OK
+INFO:     ::1:52194 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:52194 - "GET /redirect.html HTTP/1.1" 200 OK
+INFO:     ::1:52194 - "GET /playlists.html?access_token=BQDuxU8fMWFF_ea0Fm9mKCIDSDHbxRhCjX2pritlQfvvcOubdvlzq3s1yd5qq_dT4CppckZ-7uIRKkzWirLqcIx9F5w-Pjjo0MLsWcCeLGHQEX01WI3edGO3e8gwOkY8Dq_KW3F7cWb55BnEEUU8Im_POHun_GbLk6nT0pV7jL27HGqzEyX0QigPRlKkG9ga_4CM52r7rAWErDH2lgY889elI7M HTTP/1.1" 200 OK
+INFO:     ::1:52194 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:52194 - "GET /randomsong.html?access_token=BQDuxU8fMWFF_ea0Fm9mKCIDSDHbxRhCjX2pritlQfvvcOubdvlzq3s1yd5qq_dT4CppckZ-7uIRKkzWirLqcIx9F5w-Pjjo0MLsWcCeLGHQEX01WI3edGO3e8gwOkY8Dq_KW3F7cWb55BnEEUU8Im_POHun_GbLk6nT0pV7jL27HGqzEyX0QigPRlKkG9ga_4CM52r7rAWErDH2lgY889elI7M&playlist_id=37i9dQZF1DWWEJlAGA9gs0 HTTP/1.1" 200 OK
+INFO:     ::1:52194 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:52196 - "GET /randomsong.html?access_token=BQDuxU8fMWFF_ea0Fm9mKCIDSDHbxRhCjX2pritlQfvvcOubdvlzq3s1yd5qq_dT4CppckZ-7uIRKkzWirLqcIx9F5w-Pjjo0MLsWcCeLGHQEX01WI3edGO3e8gwOkY8Dq_KW3F7cWb55BnEEUU8Im_POHun_GbLk6nT0pV7jL27HGqzEyX0QigPRlKkG9ga_4CM52r7rAWErDH2lgY889elI7M&playlist_id=37i9dQZF1DWWEJlAGA9gs0 HTTP/1.1" 200 OK
+INFO:     ::1:52196 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     ::1:52488 - "GET /auth.html HTTP/1.1" 200 OK
+INFO:     ::1:52489 - "GET /favicon.ico HTTP/1.1" 200 OK
+echo "# CodeDay_AstroToolKit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Coeurdelion18/CodeDay_AstroToolKit.git
+git push -u origin main
+
+            
+$   
+$echo "# CodeDay_AstroToolKit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Coeurdelion18/CodeDay_AstroToolKit.git
+git push -u origin main
+

@@ -1,0 +1,40 @@
+<!-- playlists.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Playlists</title>
+</head>
+<body>
+    <h1>User Playlists</h1>
+    <ul id="playlist-list"></ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const accessToken = urlParams.get("access_token");
+
+        // Fetch user playlists using the access token
+        axios.get("https://api.spotify.com/v1/me/playlists", {
+            headers: {
+                "Authorization": `Bearer ${accessToken}`
+            }
+        }).then(response => {
+            const playlistList = document.getElementById("playlist-list");
+            const playlists = response.data.items;
+            playlists.forEach(playlist => {
+                const playlistItem = document.createElement("li");
+                const playlistLink = document.createElement("a");
+                playlistLink.href = `randomsong.html?access_token=${accessToken}&playlist_id=${playlist.id}`;
+                playlistLink.textContent = playlist.name;
+                playlistItem.appendChild(playlistLink);
+                playlistList.appendChild(playlistItem);
+            });
+        }).catch(error => {
+            console.error("Error fetching playlists:", error);
+        });
+    </script>
+</body>
+</html>

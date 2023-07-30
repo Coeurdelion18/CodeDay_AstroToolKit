@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Mars Weather API Example</title>
+</head>
+<body>
+    <h1>Mars Weather</h1>
+    <div id="weatherData"></div>
+
+    <script>
+        fetch('https://api.nasa.gov/insight_weather/?api_key=g3qkUWJtootfhdaj3WP8CF9foPwgoOtkJDd7JA65&feedtype=json&ver=1.0')
+    .then(response => response.json())
+    .then(data => {
+        // Extract the latest sol (Martian day) data from the API response
+        const latestSol = Object.keys(data.sol_keys)[0];
+        const weatherData = data[latestSol];
+
+        // Display weather data on the HTML page
+        const weatherDiv = document.getElementById('weatherData');
+        weatherDiv.innerHTML = `
+            <p><strong>Sol:</strong> ${latestSol}</p>
+            <p><strong>Atmospheric Pressure:</strong> ${weatherData.PRE.av} Pa</p>
+            <p><strong>Temperature:</strong> ${weatherData.AT.av} °C</p>
+            <p><strong>Wind Speed:</strong> ${weatherData.HWS.av} m/s</p>
+        `;
+    })
+    .catch(error => console.log(error));
+    </script>
+</body>
+</html>

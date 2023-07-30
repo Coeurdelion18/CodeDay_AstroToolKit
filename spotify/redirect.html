@@ -1,0 +1,22 @@
+<!-- redirect.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Handler</title>
+</head>
+<body>
+    <h1>Redirect Handler</h1>
+    <p>Processing authentication response...</p>
+
+    <script>
+        // Parse access token from URL fragment
+        const params = new URLSearchParams(window.location.hash.substr(1));
+        const accessToken = params.get("access_token");
+
+        // Redirect to playlists.html with the access token as a query parameter
+        window.location.href = `playlists.html?access_token=${accessToken}`;
+    </script>
+</body>
+</html>
