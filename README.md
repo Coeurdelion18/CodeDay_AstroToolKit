@@ -1,2 +1,2 @@
 # CodeDay_AstroToolKit
-hello there
+Completely vibe-coded application for the astro-themed CodeDay Bengaluru in 2023.
